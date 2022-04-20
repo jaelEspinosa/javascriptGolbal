@@ -1,0 +1,48 @@
+h1{
+    background-color: gray;
+    text-align: center;
+}
+.planets-contain{
+    display: flex;
+    justify-content: center;
+}
+
+.planets img{
+    width: 60%;
+    
+}
+
+.planets{   
+    display:flex;
+    gap:20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+}
+.planets:hover{
+    cursor:pointer;
+}
+.cart{
+    padding: 15px;
+    margin-top: 100px;
+    margin-right: 25px;
+    background-color:gray;
+    width: 15%;
+    border: 1px solid white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 2px darkgray;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: justify;
+    
+}
+.cart-contain{
+    display: flex;
+    justify-content: center;
+}
+.cart img{
+    width: 80%;;
+}
+
